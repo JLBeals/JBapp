@@ -1,3 +1,41 @@
-// Place all the styles related to the simple_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/*** Navigation ***/
+nav a {
+  color: black;
+  margin: .75rem;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ li {
+   display: inline;
+ }
+
+
+
+
+/*** Body ***/
+ h1 {
+   font-family: Poppins bold, Arial Semi bold, sans-serif;
+   font-size: 3rem;
+   margin: 3rem 1rem 1rem 1rem;
+ }
+
+ p {
+   font-family: Poppins, Arial, sans-serif;
+   font-size: 1.5rem;
+   margin: 1rem;
+ }
+
+footer {
+  margin: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
